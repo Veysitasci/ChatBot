@@ -4,7 +4,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # Put bot api key
-BOT_API = ""
+BOT_API = "5679531394:AAHqKxBMZGODS4CogWBf35qv__G_O-g1byo"
 bot = telebot.TeleBot(token=BOT_API)
 english_bot = ChatBot("Steve", storage_adapter="chatterbot.storage.SQLStorageAdapter")
 trainer = ChatterBotCorpusTrainer(english_bot)
